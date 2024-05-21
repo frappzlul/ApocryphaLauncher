@@ -1,0 +1,1288 @@
+{
+  "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "id": "apocrypha-1.20.1",
+      "name": "apocrypha (Minecraft 1.20.1)",
+      "description": "apocrypha Running Minecraft 1.20.1 (Forge v47.2.23)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "teamscarlet.com",
+      "minecraftVersion": "1.20.1",
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.2.23",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7398,
+            "MD5": "4684757465c5097251ff50fa6c896145",
+            "url": "http://localhost:8080/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.2.23/lowcodelanguage-1.20.1-47.2.23.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-47.2.23",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 16554,
+                "MD5": "3073cf3a825a29461de224cc4f71251b",
+                "url": "http://localhost:8080/repo/versions/1.20.1-forge-47.2.23/1.20.1-forge-47.2.23.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.2.23",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 118684,
+                "MD5": "ecbec5d93021b389fa9e98f85e57c7c1",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.2.23/fmlcore-1.20.1-47.2.23.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.2.23",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16515,
+                "MD5": "81f8501d02a7cf7d21c55e13affd08d5",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.2.23/javafmllanguage-1.20.1-47.2.23.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.2.23",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4997,
+                "MD5": "c7daf3a7e73e39bc99c75c91918f3b32",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.2.23/mclanguage-1.20.1-47.2.23.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.2.23:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2376712,
+                "MD5": "9df3afcd5600e9d6a9462e5d24d35e5c",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/forge/1.20.1-47.2.23/forge-1.20.1-47.2.23-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.2.23:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4791301,
+                "MD5": "c548aeb8e9e1cd028005b628b54f3a29",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/forge/1.20.1-47.2.23/forge-1.20.1-47.2.23-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "http://localhost:8080/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "http://localhost:8080/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "http://localhost:8080/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "http://localhost:8080/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 125428,
+                "MD5": "3957b18bf02a62edcb6726d074b90b08",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm/9.7/asm-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73426,
+                "MD5": "53a46610df6a8dbc4ff85b8fd4cdea66",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "ea5cad3e0cbd2520688e4b0b5c4218e7",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 93784,
+                "MD5": "e7d6e20888e6fd99605f4c5fe1dfa8b0",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-util/9.7/asm-util-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34776,
+                "MD5": "910ac9c691023f1a9ff33c413ae9fbf6",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-analysis/9.7/asm-analysis-9.7.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "http://localhost:8080/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.5",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 53985,
+                "MD5": "2a6245210b446b2144071e71ca13432b",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.1.6",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 24124,
+                "MD5": "4b4fe7e512819804660d621bf11c7381",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/coremods/5.1.6/coremods-5.1.6.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "http://localhost:8080/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "http://localhost:8080/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "http://localhost:8080/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "http://localhost:8080/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "http://localhost:8080/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "http://localhost:8080/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "http://localhost:8080/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "http://localhost:8080/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "http://localhost:8080/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.3",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167288,
+                "MD5": "91e98c20afa1090c344229ce28b4c53f",
+                "url": "http://localhost:8080/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "http://localhost:8080/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.2.23",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 264183,
+                "MD5": "d9fe5ece64954059ae597f17580387a6",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.2.23/fmlloader-1.20.1-47.2.23.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.2.23",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170551,
+                "MD5": "8272bb72655c05555bc198ca83df391b",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.2.23/fmlearlydisplay-1.20.1-47.2.23.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.github.alexmodguy:alexscaves:1.1.4@jar",
+          "name": "Alex's Caves",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 61508689,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/alexscaves-1.1.4.jar",
+            "MD5": "8915e210b2bfab3fc8d1ccc87a99f842"
+          }
+        },
+        {
+          "id": "com.teammetallurgy:aquaculture:2.5.1@jar",
+          "name": "Aquaculture 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 600976,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/Aquaculture-1.20.1-2.5.1.jar",
+            "MD5": "921bd25312f52ae2c832a521b9b66d38"
+          }
+        },
+        {
+          "id": "generated.forgemod:aquamirae:6@jar",
+          "name": "Aquamirae",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16111383,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/Aquamirae-6.jar",
+            "MD5": "e817cdf90a103d1f48ddd96b8b0ddcd6"
+          }
+        },
+        {
+          "id": "dev.architectury:architectury:9.2.14@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 580602,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/architectury-9.2.14-forge.jar",
+            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
+          }
+        },
+        {
+          "id": "artifacts:artifacts:9.4.2@jar",
+          "name": "Artifacts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 595049,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/artifacts-forge-9.4.2.jar",
+            "MD5": "e7ad51a4fbdd1c35d964a3eba388c6fe"
+          }
+        },
+        {
+          "id": "generated.forgemod:attributefix:Fabric-1.20.1-21.0.4@jar",
+          "name": "AttributeFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 17975,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/AttributeFix-Fabric-1.20.1-21.0.4.jar",
+            "MD5": "2ffa44ca36e0c954a9ba9e0d90adf740"
+          }
+        },
+        {
+          "id": "generated.forgemod:bclib:3.0.14@jar",
+          "name": "Bclib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2312835,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/bclib-3.0.14.jar",
+            "MD5": "f8ace3a498b889040dea6ff1ea85d288"
+          }
+        },
+        {
+          "id": "generated.forgemod:beautify:1.1.0+fabric-1.20@jar",
+          "name": "Beautify",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 930891,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/beautify-1.1.0+fabric-1.20.jar",
+            "MD5": "f02a3667f9a5df562c351d6e97005a1a"
+          }
+        },
+        {
+          "id": "generated.forgemod:better_dogs_x_doggy_talents_next_v1.2.1 [fabric] : [1.20-1.20.1]@jar",
+          "name": "Better_Dogs_X_Doggy_Talents_Next_v1.2.1 [Fabric] ",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 843170,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/Better_Dogs_X_Doggy_Talents_Next_v1.2.1%20[Fabric]%20-%20[1.20-1.20.1].jar",
+            "MD5": "b1a0b6f4a0d14d3b998ed11e89ab9600"
+          }
+        },
+        {
+          "id": "net.pandarix:betterarcheology:1.1.7-1.20.1@jar",
+          "name": "Better Archeology",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 885999,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/betterarcheology-1.1.7-1.20.1.jar",
+            "MD5": "5da94368d5cf1df41e5492d039e624b6"
+          }
+        },
+        {
+          "id": "generated.forgemod:bountiful:6.0.3+1.20.1-fabric@jar",
+          "name": "Bountiful",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 529853,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/Bountiful-6.0.3+1.20.1-fabric.jar",
+            "MD5": "f476455d7339daae49067353036c5c69"
+          }
+        },
+        {
+          "id": "codyhuh.breezy:breezy:1.1.1@jar",
+          "name": "Breezy",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 95947,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/breezy-1.20.1-1.1.1.jar",
+            "MD5": "af0ccaae18f04d5f8cb71dde51e18fef"
+          }
+        },
+        {
+          "id": "mod.casinocraft:casinocraft:22.0@jar",
+          "name": "CasinoCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1859078,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/CasinoCraft_1.20.1_v22.jar",
+            "MD5": "eec19661fa4ff1a432f1bc5a966224d7"
+          }
+        },
+        {
+          "id": "generated.forgemod:chestedcompanions:1.3.0-1.20.1-FABRIC@jar",
+          "name": "Chestedcompanions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 220366,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/chestedcompanions-1.3.0-1.20.1-FABRIC.jar",
+            "MD5": "fbd3189ee54fca858c18a87cbc787778"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:citadel:2.5.4@jar",
+          "name": "Citadel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3181461,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/citadel-2.5.4-1.20.1.jar",
+            "MD5": "969652401ee0ad6d803b4dd588378c5a"
+          }
+        },
+        {
+          "id": "generated.forgemod:clutter:1.20-0.5.7@jar",
+          "name": "Clutter",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5381040,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/clutter-1.20-0.5.7.jar",
+            "MD5": "ce46e7cb812d74750a7c6a4e6be23e35"
+          }
+        },
+        {
+          "id": "generated.forgemod:convenientdecor:0.4.1@jar",
+          "name": "Convenientdecor",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 722356,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/convenientdecor-0.4.1.jar",
+            "MD5": "e0459af862c5e538fcc1a65bcf96c0ab"
+          }
+        },
+        {
+          "id": "net.mcreator.cozyhome:cozy_home:3.0.2@jar",
+          "name": "Cozy Home",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3564744,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/Cozy_home-3.0.2-1.20.1.jar",
+            "MD5": "02161424282958833c7ed940eb6889da"
+          }
+        },
+        {
+          "id": "com.simibubi:create:0.5.1.f@jar",
+          "name": "Create",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14964127,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/create-1.20.1-0.5.1.f.jar",
+            "MD5": "6a097aa0bfc73a4f8372a16e763f9f02"
+          }
+        },
+        {
+          "id": "generated.forgemod:mr_ctov_beautifycompat:2.0@jar",
+          "name": "CTOV - Beautify Compat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 105598,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/ctov-beautify-compat-2.0.jar",
+            "MD5": "cd8937271f71989ee9e268cba6d849cb"
+          }
+        },
+        {
+          "id": "generated.forgemod:ctov:fabric-3.4.3@jar",
+          "name": "Ctov",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5058098,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/ctov-fabric-3.4.3.jar",
+            "MD5": "efc0c7d3abddbe7a3719811a2d9bd46f"
+          }
+        },
+        {
+          "id": "net.ctov.neoforge:ctov:3.4.3@jar",
+          "name": "ChoiceTheorem's Overhauled Village",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5095205,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/ctov-forge-3.4.3.jar",
+            "MD5": "8ac3c7319fec8c8ecbaf2ff79634c1e4"
+          }
+        },
+        {
+          "id": "top.theillusivec4:curios:5.8.0+1.20.1@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 380520,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/curios-forge-5.8.0+1.20.1.jar",
+            "MD5": "f98b7b3b41c1590bf9c2853de40dd7c2"
+          }
+        },
+        {
+          "id": "generated.forgemod:mr_dungeons_andtaverns:3.0.3.f@jar",
+          "name": "Dungeons and Taverns",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13161907,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/dungeons-and-taverns-3.0.3.f.jar",
+            "MD5": "0ee71a2bc5cd3f81f155a57960b05dd9"
+          }
+        },
+        {
+          "id": "generated.forgemod:dungeonsarise:1.20.1-2.1.57-fabric-release@jar",
+          "name": "DungeonsArise",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 9005634,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/DungeonsArise-1.20.1-2.1.57-fabric-release.jar",
+            "MD5": "c025aa532cfc5854f47a942cb358665d"
+          }
+        },
+        {
+          "id": "generated.forgemod:eden:ring-20.1.19@jar",
+          "name": "Eden",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 24562355,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/eden-ring-20.1.19.jar",
+            "MD5": "a1aa4c79fb5f0d61692cc99fc303406a"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.14+mc1.20.1@jar",
+          "name": "Embeddium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1005465,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/embeddium-0.3.14+mc1.20.1.jar",
+            "MD5": "c4fef934a7f399029f3868253c69a292"
+          }
+        },
+        {
+          "id": "generated.forgemod:emotecraft:for-MC1.20.1-2.2.7-b.build.50-fabric@jar",
+          "name": "Emotecraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 873611,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/emotecraft-for-MC1.20.1-2.2.7-b.build.50-fabric.jar",
+            "MD5": "3a7abdac2462955c5a51af3cd14712ff"
+          }
+        },
+        {
+          "id": "yesman.epicfight.main:epicfight:20.7.4@jar",
+          "name": "Epic Fight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5949420,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/EpicFight-20.7.4.jar",
+            "MD5": "45bcf0c6b3abcc7346c2dab312f37ee3"
+          }
+        },
+        {
+          "id": "net.fabricmc.fabric.impl.sinytra:fabric_api:0.92.1+1.11.7+1.20.1@jar",
+          "name": "Forgified Fabric API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3040487,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/fabric-api-0.92.1+1.11.7+1.20.1.jar",
+            "MD5": "ef9950de2722301d019ca46887edebd4"
+          }
+        },
+        {
+          "id": "generated.forgemod:fabric:api-0.92.1+1.20.1@jar",
+          "name": "Fabric",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2106811,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/fabric-api-0.92.1+1.20.1.jar",
+            "MD5": "686c88c0f615e58e9fbd13c678fe543a"
+          }
+        },
+        {
+          "id": "xyz.apex.forge.fantasyfurniture.core:fantasyfurniture:9.0.0@jar",
+          "name": "Fantasy's Furniture",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3202951,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/fantasyfurniture-1.20.1-9.0.0.jar",
+            "MD5": "0712007756c04d20100121c31510d346"
+          }
+        },
+        {
+          "id": "malte0811.ferritecore:ferritecore:6.0.1@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 123034,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/ferritecore-6.0.1-forge.jar",
+            "MD5": "f52f538207a4829d7060550092ce2383"
+          }
+        },
+        {
+          "id": "com.faboslav:friendsandfoes:2.0.10@jar",
+          "name": "Friends&Foes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3327091,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/friendsandfoes-forge-mc1.20.1-2.0.10.jar",
+            "MD5": "e9fcfc23b4f91f1204776089a3aea6b2"
+          }
+        },
+        {
+          "id": "dev.shadowsoffire:gateways:4.2.4@jar",
+          "name": "Gateways To Eternity",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 630482,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/GatewaysToEternity-1.20.1-4.2.4.jar",
+            "MD5": "59cd218b551c69e4743ad0980c8d2fb5"
+          }
+        },
+        {
+          "id": "generated.forgemod:geckolib:fabric-1.20.1-4.4.4@jar",
+          "name": "Geckolib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1018129,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/geckolib-fabric-1.20.1-4.4.4.jar",
+            "MD5": "53b1859a4c1077754dc3f6e5121cddc8"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:goblintraders:1.9.3@jar",
+          "name": "Goblin Traders",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 320235,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/goblintraders-forge-1.20.1-1.9.3.jar",
+            "MD5": "acbba033aadeecf04cd702aca05c02d4"
+          }
+        },
+        {
+          "id": "earth.terrarium:handcrafted:3.0.6@jar",
+          "name": "Handcrafted",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7111059,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/handcrafted-forge-1.20.1-3.0.6.jar",
+            "MD5": "a5291f94fc830a80d2caf7d2ab7cd4fd"
+          }
+        },
+        {
+          "id": "generated.forgemod:immersive_melodies:0.1.0+1.20.1-fabric@jar",
+          "name": "Immersive_melodies",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2424352,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/immersive_melodies-0.1.0+1.20.1-fabric.jar",
+            "MD5": "207229d5218f0dd4b203e28e9a0c2a69"
+          }
+        },
+        {
+          "id": "generated.forgemod:inmis:2.7.2-1.20.1@jar",
+          "name": "Inmis",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 147752,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/inmis-2.7.2-1.20.1.jar",
+            "MD5": "5293b0f45ae3574c8533d9269f93a41e"
+          }
+        },
+        {
+          "id": "generated.forgemod:inmisaddon:1.0.4@jar",
+          "name": "Inmisaddon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 33068,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/inmisaddon-1.0.4.jar",
+            "MD5": "ef5ee9b78ada57b4f87daeb7b332856d"
+          }
+        },
+        {
+          "id": "com.github.l_ender:cataclysm:1.0@jar",
+          "name": "Cataclysm Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 39395215,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/L_Enders_Cataclysm-1.90%20-1.20.1.jar",
+            "MD5": "11040162ff2c2de2c92059dcbff42552"
+          }
+        },
+        {
+          "id": "generated.forgemod:letsdo:API-fabric-1.2.9-fabric@jar",
+          "name": "Letsdo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 575558,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/letsdo-API-fabric-1.2.9-fabric.jar",
+            "MD5": "46f36d3a75bab2395cd7b69a7d874162"
+          }
+        },
+        {
+          "id": "generated.forgemod:letsdo:bakery-fabric-1.1.8@jar",
+          "name": "Letsdo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1740358,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/letsdo-bakery-fabric-1.1.8.jar",
+            "MD5": "c9309abed1e96abc31bb3e049849466b"
+          }
+        },
+        {
+          "id": "satisfy.beachparty:beachparty:1.1.4-1@jar",
+          "name": "[Let's Do] Beachparty",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3587352,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/letsdo-beachparty-forge-1.1.4-1.jar",
+            "MD5": "066a9b95bc75f31c4021b3931d8d6e30"
+          }
+        },
+        {
+          "id": "satisfyu.herbalbrews:herbalbrews:1.0.6@jar",
+          "name": "[Let's Do] HerbalBrews",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 720427,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/letsdo-herbalbrews-forge-1.0.6.jar",
+            "MD5": "656b6f4723edf82bdb2bdcfd10bbf711"
+          }
+        },
+        {
+          "id": "generated.forgemod:letsdo:vinery-fabric-1.4.14@jar",
+          "name": "Letsdo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3251247,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/letsdo-vinery-fabric-1.4.14.jar",
+            "MD5": "aeab1db361e11eba494961860aa88d54"
+          }
+        },
+        {
+          "id": "dev.worldgen:lithostitched:1.1.5@jar",
+          "name": "Lithostitched",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 156273,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/lithostitched-forge-1.20.1-1.1.5.jar",
+            "MD5": "becacfb1543a55229601d9b0b2bba900"
+          }
+        },
+        {
+          "id": "generated.forgemod:map:atlases-2.6.0+1.20.1@jar",
+          "name": "Map",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 285637,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/map-atlases-2.6.0+1.20.1.jar",
+            "MD5": "65bfc3b76b4a4cc160369dd056d05e4d"
+          }
+        },
+        {
+          "id": "generated.forgemod:mcef:fabric-2.1.4-1.20.1@jar",
+          "name": "Mcef",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 223967,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/mcef-fabric-2.1.4-1.20.1.jar",
+            "MD5": "9ccfce0e0ca9b03aba78238c4907bb41"
+          }
+        },
+        {
+          "id": "generated.forgemod:minecells:1.7.4@jar",
+          "name": "Minecells",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6102393,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/minecells-1.7.4.jar",
+            "MD5": "c3be5829f0f4af7f1c0335a2be5d1bf6"
+          }
+        },
+        {
+          "id": "net.mcreator.moadecorcookery:moa_decor_cookery:1.20.1@jar",
+          "name": "MOA DECOR: COOKERY",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1537747,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/MOAdecor%20COOKERY%201.20.2.jar",
+            "MD5": "57c355d9051835919d1d3be1148a7ad5"
+          }
+        },
+        {
+          "id": "net.mcreator.moadecorgarden:moa_decor_garden_:1.20.1@jar",
+          "name": "MOA DECOR: GARDEN",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1206143,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/MOAdecor%20GARDEN%201.20.1.jar",
+            "MD5": "57f53d1ceb7b830bcc9c7cee0bcc3a47"
+          }
+        },
+        {
+          "id": "org.embeddedt.modernfix.forge.init:modernfix:5.16.0+mc1.20.1@jar",
+          "name": "ModernFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 747533,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/modernfix-forge-5.16.0+mc1.20.1.jar",
+            "MD5": "22a18e261b77d15520b0a74aadd8b410"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:moonlight:1.20-2.11.12@jar",
+          "name": "Moonlight Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1161940,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/moonlight-1.20-2.11.12-forge.jar",
+            "MD5": "804fa6ec8e97f747ec32f2b39baec500"
+          }
+        },
+        {
+          "id": "com.starfish_studios:naturalist:4.0.3@jar",
+          "name": "Naturalist",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3343324,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/naturalist-forge-4.0.3-1.20.1.jar",
+            "MD5": "d41bf9911d5873965c66389944fdb042"
+          }
+        },
+        {
+          "id": "generated.forgemod:niftycarts:3.0.1+1.20.1@jar",
+          "name": "Niftycarts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 199811,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/niftycarts-3.0.1+1.20.1.jar",
+            "MD5": "8add20e409d0d65292c7633fbacae2fc"
+          }
+        },
+        {
+          "id": "net.stardustlabs:nullscape:1.2.4@jar",
+          "name": "Nullscape",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 319521,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/Nullscape_1.20.4_v1.2.4.jar",
+            "MD5": "5056abb2f4e9f4f9bccb9ec05b44f586"
+          }
+        },
+        {
+          "id": "net.coderbot.iris:oculus:1.6.15a@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2806358,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/oculus-mc1.20.1-1.6.15a.jar",
+            "MD5": "b6d1e02b5fccf72570fa19606006d711"
+          }
+        },
+        {
+          "id": "generated.forgemod:overweightfarming:1.20.1-2.0.3-fabric@jar",
+          "name": "Overweightfarming",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 380027,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/overweightfarming-1.20.1-2.0.3-fabric.jar",
+            "MD5": "351a726a06004f34506383637fed590d"
+          }
+        },
+        {
+          "id": "generated.forgemod:owo:lib-0.11.2+1.20@jar",
+          "name": "Owo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 905421,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/owo-lib-0.11.2+1.20.jar",
+            "MD5": "9150f588f732ae38c0320a17fa340626"
+          }
+        },
+        {
+          "id": "com.pam:pamhc2crops:1.0.3@jar",
+          "name": "Pam's HarvestCraft 2 - Crops",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1050402,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/pamhc2crops-1.20-1.0.3.jar",
+            "MD5": "3b4a219f1bc87f89256ca84ff6059f7a"
+          }
+        },
+        {
+          "id": "com.pam:pamhc2foodcore:1.0.5@jar",
+          "name": "Pam's HarvestCraft 2 - Food Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 911489,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/pamhc2foodcore-1.20.4-1.0.5.jar",
+            "MD5": "744646a811ced1c079c19a7df31388fe"
+          }
+        },
+        {
+          "id": "generated.forgemod:paraglider:fabric-20.1.3@jar",
+          "name": "Paraglider",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 581655,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/Paraglider-fabric-20.1.3.jar",
+            "MD5": "a797a5b362b96c73fd1087c2bacf3a32"
+          }
+        },
+        {
+          "id": "generated.forgemod:plushies:1.4.0-fabric@jar",
+          "name": "Plushies",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 686943,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/plushies-1.4.0-fabric.jar",
+            "MD5": "f442d7a92a33a59f9a159a52f37ec9f1"
+          }
+        },
+        {
+          "id": "generated.forgemod:promenade:4.1.1@jar",
+          "name": "Promenade",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4374815,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/promenade-4.1.1.jar",
+            "MD5": "b3e1ba8407ea6ca144a54270b399a672"
+          }
+        },
+        {
+          "id": "com.mtcleo05:qualitycrops:1.20.1-1.3.3@jar",
+          "name": "Quality Crops",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 348118,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/QualityCrops-1.20.1-1.3.3.jar",
+            "MD5": "91759a2dba32c9b379303a8fa1944605"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.lithium:radium:0.12.3+git.50c5c33@jar",
+          "name": "Radium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 712994,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/radium-mc1.20.1-0.12.3+git.50c5c33.jar",
+            "MD5": "06d9a7528a47a7618aaaad5f26c85794"
+          }
+        },
+        {
+          "id": "com.teamresourceful:resourcefullib:2.1.24@jar",
+          "name": "Resourceful Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 424237,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/resourcefullib-forge-1.20.1-2.1.24.jar",
+            "MD5": "559fc9800f1ccbc4a182c7af0cf506c6"
+          }
+        },
+        {
+          "id": "generated.forgemod:soulslike:weaponry-1.1.3-1.20-fabric@jar",
+          "name": "Soulslike",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6239036,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/soulslike-weaponry-1.1.3-1.20-fabric.jar",
+            "MD5": "0e5ea36eba5b48e9943fe09e482c6f38"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:supplementaries:1.20-2.8.10@jar",
+          "name": "Supplementaries",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14516936,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/supplementaries-1.20-2.8.10.jar",
+            "MD5": "d8fcb82db67fab6778039b9f48448330"
+          }
+        },
+        {
+          "id": "andrews.table_top_craft:table_top_craft:1.20-6.1.1@jar",
+          "name": "Table Top Craft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1463609,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/table_top_craft-1.20-6.1.1.jar",
+            "MD5": "c2ea9ebdeb000017e7cb49d8d4ae8d12"
+          }
+        },
+        {
+          "id": "net.mcreator.thewanderinggamblerii:the_wandering_gambler_ii:1.0.0@jar",
+          "name": "The Wandering Gambler II",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 33458,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/the_wandering_gambler-1.4.0.jar",
+            "MD5": "0bedaeb0db00981dab76fa12bc859e2d"
+          }
+        },
+        {
+          "id": "generated.forgemod:mr_limesplatus_ending:1-v1.1.0c@jar",
+          "name": "True Ending: Ender Dragon Overhaul",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5525883,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/tru.e-ending-v1.1.0c.jar",
+            "MD5": "c83ccd876af0ac3cac72d2880b7c1a18"
+          }
+        },
+        {
+          "id": "reascer.wom.main:wom:20.1.7.40@jar",
+          "name": "Weapons of Minecraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10405270,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/WeaponsOfMiracles-20.1.7.40.jar",
+            "MD5": "e87869ce6df2252615e2f5c7320b50a2"
+          }
+        },
+        {
+          "id": "net.montoyo.wd:webdisplays:2.0.0-1.20.1@jar",
+          "name": "WebDisplays",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 779998,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/webdisplays-2.0.0-1.20.1.jar",
+            "MD5": "b3df86a96b5122201b13ea08f00694a2"
+          }
+        },
+        {
+          "id": "generated.forgemod:wraith:harvestscythes-2.5.6+mc1.20@jar",
+          "name": "Wraith",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 366540,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/wraith-harvestscythes-2.5.6+mc1.20.jar",
+            "MD5": "7177d7a1345b7fe32b399531481b75fc"
+          }
+        },
+        {
+          "id": "generated.forgemod:wraith:waystones-3.3.2+mc1.20.1@jar",
+          "name": "Wraith",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 423994,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/wraith-waystones-3.3.2+mc1.20.1.jar",
+            "MD5": "50b61f83fe608af838773c6959fad95a"
+          }
+        },
+        {
+          "id": "xerca.xercapaint:xercapaint:1.20.1-1.0.0@jar",
+          "name": "Joy of Painting",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 397719,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/xercapaint-1.20.1-1.0.0.jar",
+            "MD5": "553f1fbfd40fc86fe71a342c7be3091d"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsapi:1.20-Forge-4.0.4@jar",
+          "name": "YUNG's API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 365910,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/YungsApi-1.20-Forge-4.0.4.jar",
+            "MD5": "d6d1d9e6d324a0ee19f2b27557338cb8"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterdeserttemples:1.20-Forge-3.0.3@jar",
+          "name": "YUNG's Better Desert Temples",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 918012,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/YungsBetterDesertTemples-1.20-Forge-3.0.3.jar",
+            "MD5": "183e2c817e9094ce215c9e70c114825f"
+          }
+        },
+        {
+          "id": "generated.forgemod:yungsbetterdungeons:1.20-Fabric-4.0.3@jar",
+          "name": "YungsBetterDungeons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 944443,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/YungsBetterDungeons-1.20-Fabric-4.0.3.jar",
+            "MD5": "f9d0381d25f2bd1e6f8fd79c9ed1967e"
+          }
+        },
+        {
+          "id": "generated.forgemod:yungsbetterjungletemples:1.20-Fabric-2.0.4@jar",
+          "name": "YungsBetterJungleTemples",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 947289,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/YungsBetterJungleTemples-1.20-Fabric-2.0.4.jar",
+            "MD5": "5c83f78d375168bcf8681306991a8f56"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:bettermineshafts:1.20-Forge-4.0.4@jar",
+          "name": "YUNG's Better Mineshafts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 492998,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
+            "MD5": "fe8d205c98cb02840d46646fb7cf5ab8"
+          }
+        },
+        {
+          "id": "generated.forgemod:yungsbetternetherfortresses:1.20-Fabric-2.0.6@jar",
+          "name": "YungsBetterNetherFortresses",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 760974,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/YungsBetterNetherFortresses-1.20-Fabric-2.0.6.jar",
+            "MD5": "aefeee128bbae518186bd3d73c59c74a"
+          }
+        },
+        {
+          "id": "generated.forgemod:yungsbetteroceanmonuments:1.20-Fabric-3.0.4@jar",
+          "name": "YungsBetterOceanMonuments",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1165832,
+            "url": "http://localhost:8080/servers/apocrypha-1.20.1/forgemods/required/YungsBetterOceanMonuments-1.20-Fabric-3.0.4.jar",
+            "MD5": "06c32808f70eaa9f41bcc01c09509229"
+          }
+        }
+      ]
+    }
+  ]
+}
